@@ -1,0 +1,2 @@
+gcc -m32 main.c -o main.exe -Iffmpeg-3.2.4-win32-dev/include -Lffmpeg-3.2.4-win32-dev\lib -lavcodec -lavutil -lavformat
+gcc -m32 main2.c -o main2.exe -Iffmpeg-3.2.4-win32-dev/include -Lffmpeg-3.2.4-win32-dev\lib -lavcodec -lavutil -lavformat
